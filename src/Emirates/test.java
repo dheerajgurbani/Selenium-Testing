@@ -21,10 +21,6 @@ package Emirates;
  * 	- Check the page title to ensure that the page is correct
  * 	- Check the page URL to ensure that links land up on the correct page.
  * */
-
-
-
-
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
@@ -97,7 +93,7 @@ public class test {
 
 				// enter the last name
 				name = wd.findElement(By.name("txtFamilyName"));
-				name.sendKeys("Aggarwal");
+				name.sendKeys("Gurbani");
 				Thread.sleep(2000);
 
 				// enter the dob fields
